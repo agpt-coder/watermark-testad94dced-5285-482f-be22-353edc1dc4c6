@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "watermark-test"
+version = "0.1.0"
+description = "The task involves creating a solution that allows users to add text or image watermarks to PDF files. This solution must offer flexibility and control over the watermark's customization, including its opacity, position, and size, ensuring that the watermark does not obscure the content of the PDF. From the user's perspective, both text and image watermarks are essential for different use cases, with text watermarks being favored for their simplicity in certain contexts, and image watermarks being critical for branding purposes."
+authors = ["AutoGPT <info@agpt.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+bcrypt = "^3.2.2"
+fastapi = "^0.79.0"
+prisma = "*"
+pydantic = "*"
+python-multipart = "^0.0.5"
+uvicorn = "^0.17.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
